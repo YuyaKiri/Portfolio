@@ -1,14 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>YuyaKiri_Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Yuya Kiri ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Yuya Kiriのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="YUYAKIRI's Portfolio" content="Yuya Kiriのポートフォリオサイトです" />
+  <title>Yuya Kiri portfolio</title>
+  <link href="stylesheet.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/profile.jpg" />
+  <link rel=”canonical” href=”URLが入る” />
 </head>
+
 <body>
-    <h1 class="title">HTML & CSS の開発環境を用意しよう！</h1>
-    <p>自分のPCでWebページを開発する方法を学習しましょう</p>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo" id="js-page-top">
+          <a href="index.html" >YUYA KIRI</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">YUYA KIRI</p>
+          <p class="mv-subtitle">PORTFOLIO</p>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://lin.ee/H2YT7ms">
+              <div class="works-img"><img src="img/line.jpg" alt="" /></div>
+              <p class="works-name">Linebot</p>
+              <p class="works-info">Wikipediaと連携したLinebot ”KiriChannel”</p>
+              <!--
+              <a class="line-btn" href="https://lin.ee/H2YT7ms"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0" width="80"></a>
+              -->
+            </a>
+
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/Kobe.jpg" alt="" /></div>
+              <p class="works-name">住吉南町紹介サイト</p>
+              <p class="works-info">兵庫県神戸市東灘区住吉南町の紹介サイト</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/HTMLCSS.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML/CSS</h3>
+                <p class="skill-text">
+                  Progateにて学習後、本ポートフォリオサイトおよび住吉南町紹介サイトを作成した。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/js.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">
+                  Progateにて学習後、Node.jsを用いてHeroku/Githubと連携したLinebotを作成した。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p>
+            <div class="profile-body">
+              <p>2018年3月に、神戸大学大学院海事科学研究科を修了。「時間遅れを考慮した常微分方程式系の安定性解析」というテーマで基礎数学の研究を行い、海外ジャーナルへの論文投稿や国内学会での発表を行った。
+              </p>
+              <p>同年4月より、アズビル株式会社にてオフィスビルや病院などの空調設備における自動制御のエンジニアリングおよび施工管理業務に従事している。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">メールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <span class="contact-item">kiri3625@yahoo.co.jp</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">TOP</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;YUYA KIRI</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
