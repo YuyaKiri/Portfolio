@@ -400,6 +400,7 @@ body {
 
   .works-list {
     justify-content: center;
+    max-width: 100%;
   }
 
   .works-item {
