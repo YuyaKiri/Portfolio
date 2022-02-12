@@ -350,7 +350,7 @@ body {
 
   .header-logo {
     font-size: 15px;
-    margin-right: 8px;
+    margin-right: 2px;
   }
 
   .gnav-item:not(:last-child) {
