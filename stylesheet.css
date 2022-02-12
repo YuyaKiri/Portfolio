@@ -311,7 +311,6 @@ body {
 @media screen and (max-width: 670px) {
   body {
     font-size: 14px;
-    width: auto;
   }
 
   .pc-only {
@@ -403,7 +402,7 @@ body {
 
   
   .works-item{
-    flex: auto;
+    /*flex: auto;*/
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
