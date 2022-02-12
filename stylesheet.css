@@ -399,7 +399,7 @@ body {
   }
 
   .works-list {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .works-item {
