@@ -172,7 +172,15 @@ body {
     margin-bottom: -40px;
   }
   
-  .works-item {
+  .works-item1 {
+    width: 30%;
+    margin-right: 7%;
+    margin-left: 11%;
+    margin-bottom: 40px;
+    color: #333;
+  }
+
+  .works-item2 {
     width: 30%;
     margin-right: 7%;
     margin-left: 11%;
@@ -180,7 +188,11 @@ body {
     color: #333;
   }
   
-  .works-item:hover {
+   .works-item1:hover {
+    opacity: 0.9;
+  }
+
+  .works-item2:hover {
     opacity: 0.9;
   }
   
@@ -355,7 +367,7 @@ body {
   }
 
   .gnav-item:not(:last-child) {
-    margin-right: 5px;
+    margin-right: 8px;
   }
 
   .gnav-item a {
@@ -402,8 +414,14 @@ body {
     justify-content: center;
   }
 
-  .works-item {
-    flex: auto;
+  
+  .works-item1 {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .works-item2 {
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
