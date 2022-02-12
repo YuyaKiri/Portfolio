@@ -402,16 +402,16 @@ body {
 
   .works-name {
     font-size: 12px;
-    position: center;
+    /*position: center;*/
   }
 
   .works-info {
     margin-top: 3px;
-    text-align: center;
+    /*text-align: center;*/
   }
 
   .works-list {
-    justify-content: center;
+    justify-content: normal;
   }
 
   
