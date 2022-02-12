@@ -18,8 +18,6 @@ body {
     border-style: none;
   }
   
-  
-  
   .pc-only {
     display: block;
   }
@@ -28,6 +26,16 @@ body {
     display: none;
   }
   
+  @media(max-width: 670px){
+    .header{
+      width: 100%;
+    }
+    .works-secttion{
+      width:100%;
+      text-align: center;
+    }
+  }
+
   /*--------------------------------
    Layout
   ---------------------------------*/
