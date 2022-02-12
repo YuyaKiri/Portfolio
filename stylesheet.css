@@ -172,15 +172,7 @@ body {
     margin-bottom: -40px;
   }
   
-  .works-item1 {
-    width: 30%;
-    margin-right: 7%;
-    margin-left: 11%;
-    margin-bottom: 40px;
-    color: #333;
-  }
-
-  .works-item2 {
+  .works-item {
     width: 30%;
     margin-right: 7%;
     margin-left: 11%;
@@ -188,11 +180,7 @@ body {
     color: #333;
   }
   
-   .works-item1:hover {
-    opacity: 0.9;
-  }
-
-  .works-item2:hover {
+   .works-item:hover {
     opacity: 0.9;
   }
   
@@ -415,14 +403,7 @@ body {
   }
 
   
-  .works-item1 {
-    flex: auto;
-    max-width: 100%;
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-
-  .works-item2 {
+  .works-item{
     flex: auto;
     max-width: 100%;
     margin-right: 0;
