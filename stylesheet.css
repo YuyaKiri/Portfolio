@@ -400,11 +400,11 @@ body {
 
   .works-list {
     justify-content: space-between;
-    max-width: 100%;
   }
 
   .works-item {
     flex: auto;
+    max-width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
   }
