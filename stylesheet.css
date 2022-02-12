@@ -396,14 +396,13 @@ body {
   }
 
   .works-list {
-    /*justify-content: center;*/
+    justify-content: space-between;
     max-width: 100%;
   }
 
   
   .works-item{
-    /*flex: auto;
-    max-width: 100%;*/
+    flex: 0 0 48%;
     margin-right: 0;
     margin-bottom: 30px;
   }
