@@ -390,16 +390,15 @@ body {
 
   .works-name {
     font-size: 12px;
-    /*position: center;*/
   }
 
   .works-info {
     margin-top: 3px;
-    /*text-align: center;*/
   }
 
   .works-list {
-    justify-content: normal;
+    justify-content: center;
+    max-width: 100%;
   }
 
   
