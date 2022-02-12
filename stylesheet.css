@@ -390,21 +390,25 @@ body {
 
   .works-name {
     font-size: 12px;
+    position: center;
   }
 
   .works-info {
     margin-top: 3px;
     text-align: center;
+    position: center;
   }
 
   .works-list {
     justify-content: space-between;
+    position: center;
   }
 
   .works-item {
     flex: 0 0 48%;
     margin-right: 0;
     margin-bottom: 30px;
+    position: center;
   }
 
   .skill-list {
