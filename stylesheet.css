@@ -405,7 +405,7 @@ body {
   }
 
   .works-item {
-    flex: 0 0 48%;
+    flex: auto;
     margin-right: 0;
     margin-bottom: 30px;
     position: center;
