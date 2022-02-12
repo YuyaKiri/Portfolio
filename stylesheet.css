@@ -308,7 +308,7 @@ body {
 
 
 /*media Queries 670*/
-@media screen and (max-width: 670px) {
+@media (max-width: 670px) {
   body {
     font-size: 14px;
   }
