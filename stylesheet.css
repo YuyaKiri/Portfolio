@@ -396,7 +396,6 @@ body {
   .works-info {
     margin-top: 3px;
     text-align: center;
-    position: center;
   }
 
   .works-list {
@@ -407,7 +406,6 @@ body {
     flex: auto;
     margin-right: 0;
     margin-bottom: 30px;
-    position: center;
   }
 
   .skill-list {
