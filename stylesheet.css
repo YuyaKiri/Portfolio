@@ -359,7 +359,7 @@ body {
 
   .gnav-item a {
     font-size: 10px;
-    width: 20%;
+    max-width: 100%;
   }
 
   .gnav-item a:after {
