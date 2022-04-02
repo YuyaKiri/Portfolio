@@ -1,7 +1,7 @@
 # Portfolio
 
-"Portfolio" is YuyaKiri’s website linked his works.
-https://yuyakiri.github.io/Portfolio/
+"Portfolio" is Yuya Kiri’s website linked his works.
+Please access "https://yuyakiri.github.io/Portfolio/".
 
 
 # Features
