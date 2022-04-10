@@ -7,7 +7,7 @@ Please access "https://yuyakiri.github.io/Portfolio/".
 # Features
 
 This website is simple design with HTML, CSS and Javascript.
-Also, this site supported responsive design.
+Also, this website supported responsive design.
 
 
 # Author
